@@ -2,18 +2,21 @@ from Normal import Normal
 from Anomalous import Anomalous
 
 NUM_CPU = 4
-DATASET = 1  # 'Normal': 0, 'Anomalous': 1
+DATASET = 0  # 'Normal': 0, 'Anomalous': 1
 SUBSET = True
-SUBSET_SIZE = 30000
+SUBSET_SIZE = 20000
 
 '''
 Put the paths of files you wanna process into the list.
 '''
-PATH = ['path 1',
-        'path 2',
-        '...']
+PATH = ['/path_to/Monday_norm.csv',
+        '/path_to/Tuesday_norm.csv',
+        '/path_to/Wednesday_norm.csv',
+        '/path_to/Thursday_norm.csv',
+        '/path_to/Friday_norm.csv',
+        ]
 
-PATH_OUT = '/home/yinzheng/Documents/original csv/dataset_30000.csv'
+PATH_OUT = 'path_to/dataset_20000_test.csv'
 
 '''
 DO NOT edit anything below!

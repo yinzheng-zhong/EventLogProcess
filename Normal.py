@@ -50,7 +50,7 @@ class Normal:
                                         'S/C'])
 
         if subset is True:
-            np.random.seed(0)
+            np.random.seed(1)
             sub_set_ids = np.random.choice(previous_max, subset_size, replace=False)
             dataset = dataset[dataset['Case_ID'].isin(sub_set_ids)]
 
