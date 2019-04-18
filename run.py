@@ -9,15 +9,9 @@ SUBSET_SIZE = 30000
 '''
 Put the paths of files you wanna process into the list.
 '''
-PATH = ['/home/yinzheng/Documents/original csv/Friday_Botnet_ARES.csv',
-        '/home/yinzheng/Documents/original csv/Friday_Port_Scan_DDos.csv',
-        '/home/yinzheng/Documents/original csv/Thursday_Cool_MAC.csv',
-        '/home/yinzheng/Documents/original csv/Thursday_Inf_Dropbox.csv',
-        '/home/yinzheng/Documents/original csv/Thursday_PortscanNmap.csv',
-        '/home/yinzheng/Documents/original csv/Thursday_Web.csv',
-        '/home/yinzheng/Documents/original csv/Wednesday_DoS.csv',
-        '/home/yinzheng/Documents/original csv/Wednesday_Heartbleed.csv',
-        '/home/yinzheng/Documents/original csv/Tuesday_BruteForce.csv']
+PATH = ['path 1',
+        'path 2',
+        '...']
 
 PATH_OUT = '/home/yinzheng/Documents/original csv/dataset_30000.csv'
 
