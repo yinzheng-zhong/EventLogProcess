@@ -2,7 +2,6 @@ import numpy as np
 import socket
 import struct
 import sys
-from numba import jit
 
 month_dic = {'Jan': '01',
              'Feb': '02',

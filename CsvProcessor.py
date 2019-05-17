@@ -1,5 +1,4 @@
 import pandas as pd
-from numba import jit
 from Functions import Functions
 from multiprocessing import Pool
 import sys
