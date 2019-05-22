@@ -11,7 +11,7 @@ class Anomalous:
         for i in range(len(self.paths)):
             cp = CsvProcessor(self.paths[i], self.num_cpu)
             cp.load_csv()
-            cp.use_small_portion_200k()
+            #cp.use_small_portion_200k()
             now = time.time()
             cp.remove_invalid_rows()
             cp.convert_hex_to_flags()
